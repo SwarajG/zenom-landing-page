@@ -1719,5 +1719,52 @@ h1, h2, h3, h4, h5,
 }
 
 .description-container {
-  padding-left: 15px;
+  padding-left: 20px;
+}
+
+.image-container {
+  min-width: 400px;
+}
+
+.specification-container {
+  display: flex;
+}
+
+.specification-title {
+  margin-right: 10px;
+}
+
+.product-title {
+  margin-bottom: 15px;
+}
+
+.about-us-image {
+  background-image: url(../images/about-us.jpg);
+  height: 700px;
+  width: 100%;
+  position: absolute;
+  z-index: 0;
+  background-size: cover;
+}
+
+.about-container {
+  display: flex;
+  min-height: 700px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.about-us-container {
+  z-index: 1;
+  transition: background 0.3s, border 0.3s, border-radius 0.3s, box-shadow 0.3s;
+  padding-left: 20px;
+  padding-top: 15px;
+}
+
+.full-width {
+  width: 100%;
+}
+
+.about-us-description {
+  
 }
