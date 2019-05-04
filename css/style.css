@@ -1709,3 +1709,15 @@ h1, h2, h3, h4, h5,
       margin: 4px; }
     .with-dots .owl-dots .owl-dot.active span {
       background: #f69314; }
+
+.product-container {
+  display: flex;
+}
+
+.image-container {
+  margin-right: 20px;
+}
+
+.description-container {
+  padding-left: 15px;
+}
